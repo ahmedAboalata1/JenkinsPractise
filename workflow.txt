@@ -1,0 +1,15 @@
+Create resources 
+connect to required machine using ssh 
+Install all dependencies from install.sh (vim install.sh => ctrl+c ctrl+v => chmod +x install.sh)
+Add credentials of 
+  github to give access to repo 
+  docker hub to push docker images (user name and token)
+Create new jop 
+  New Item 
+    Name 
+    PipeLine
+  pipeline script from source code 
+      repo url
+      credentials
+      branchName 
+      

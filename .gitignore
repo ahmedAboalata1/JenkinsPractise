@@ -1,0 +1,23 @@
+# Ignore .terraform directories
+.terraform/
+
+# Ignore Terraform state files and backups
+*.tfstate
+*.tfstate.backup
+
+# Ignore crash logs
+crash.log
+
+# Ignore override files
+*.override
+*.override.tf
+*_override.tf
+
+# Ignore plan output files
+*.tfplan
+
+# Ignore lock file
+.terraform.lock.hcl
+
+# Ignore AWS key files
+*.pem

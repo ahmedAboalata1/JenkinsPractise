@@ -1,4 +1,4 @@
-Create resources 
+Create resources using terraform 
 connect to required machine using ssh 
 Install all dependencies from install.sh (vim install.sh => ctrl+c ctrl+v => chmod +x install.sh)
 Add credentials of 
@@ -10,6 +10,9 @@ Create new jop
     PipeLine
   pipeline script from source code 
       repo url
+        it will run jenkins file exists in repo when I build the pipeline
       credentials
       branchName 
-      
+build 
+check logs and outputs 
+

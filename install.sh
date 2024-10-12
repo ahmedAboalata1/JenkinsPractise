@@ -42,6 +42,10 @@ sudo apt install -y ansible
 echo "--------------------Adding Docker Permissions--------------------"
 sudo usermod -aG docker $USER
 sudo usermod -aG docker jenkins
+sudo systemctl restart jenkins
+sudo systemctl restart docker
+#give  docker group permission to access the socket
+sudo chmod 666 /var/run/docker.sock
 newgrp docker
 
 # Display Jenkins initial admin password
